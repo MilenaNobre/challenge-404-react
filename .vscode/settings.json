@@ -2,15 +2,17 @@
     "git.enabled": false,
     "files.exclude": {
         ".vscode": false,
-        "public": false,
+        "public": true,
         "package.json": true,
         "tsconfig.json": true,
         "yarn-lock.json": true,
         "package-lock.json": true,
         "yarn.lock": true,
         ".gitignore": true,
-        "README.md": true,
+        "README.md": false,
         "node_modules": true,
         "babel.config.js": true,
-    }
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active"
 }
